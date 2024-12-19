@@ -1,8 +1,4 @@
-:root {
-    --header-image: url('https://i.pinimg.com/564x/dc/2a/4f/dc2a4f0528cb7bb83e7614dbba4f1094.jpg');
-    --body-bg-image: url('https://sadhost.neocities.org/images/tiles/azulestrellas.gif');
-    --content: #bbadd0;
-}
+
 .auto {
     cursor: url(https://cur.cursors-4u.net/nature/nat-7/nat626.cur), auto !important;
 }
@@ -20,70 +16,9 @@ body {
     background-color: #08031A;
     background-size:auto;
     color: #fceaff;
-    background-image: url('../imgs/backstar.gif')/*'https://sadhost.neocities.org/images/tiles/azulestrellas.gif'); */
+    background-image: url('../imgs/backstar.gif')
 }
 
-* {
-    box-sizing: border-box;
-}
-
-#container {
-    max-width: 1000px;
-    margin: 0 auto;
-    -webkit-box-shadow: 5px 5px 5px 0px #000000; 
-    box-shadow: 5px 5px 5px 0px #000000;
-}
-
-#container a {
-    color: #64dff5;
-    font-weight: bold;
-}
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    border-style: solid;
-    border-width: 1px;
-    border-color: #5e4e8c;
-
-  }
-#header {
-    overflow: hidden;
-    background-image: url('../imgs/header.jpg');
-    width: 100%;
-
-}
-
-table {
-    width: 100%;
-    border-spacing: 10px;
-}
-
-td {
-    vertical-align: middle;
-}
-
-aside {
-    background-color: #241445;
-    width: 200px;
-    padding: 20px;
-    font-size: smaller;
-}
-
-main { /*this is the center box */
-    background-color: #43256E;
-    overflow-y: scroll;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-style: solid;
-    border-width: 2px;
-    border-color:#13092D;
-}
-#introBox {
-    -webkit-box-shadow: 5px 5px 5px 0px #000000; 
-    box-shadow: 10px 10px 10px 0px #000000;
-}
 
 h1, h2, h3 {
     color: #ED64F5;
@@ -95,13 +30,6 @@ h1 {
 
 strong {
     color: #ED64F5;
-}
-.box {
-    background-color: #13092D;
-    border: 1px solid #ED64F5;
-    padding: 10px;
-    -webkit-box-shadow: 5px 5px 5px 0px #000000; 
-    box-shadow: 5px 5px 5px 0px #000000;
 }
 
 #rightSidebar {
